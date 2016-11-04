@@ -9,32 +9,31 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.vical.holamundo.MainActivity">
+    tools:context="com.vical.holamundo.MainActivity"
+    android:background="@drawable/fondo_android">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_app"
-        android:id="@+id/textView" />
+        android:id="@+id/textView"
+        android:layout_marginTop="13dp"
+        android:textColor="@android:color/white"
+        android:textSize="36sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="173dp"
+        android:layout_marginEnd="173dp" />
 
     <Button
-        android:text="Button"
+        android:text="@string/etiqueta_boton_ingreso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/lasagna_thumb"
-        android:id="@+id/imageView"
+        android:layout_marginTop="48dp"
         android:layout_below="@+id/textView"
-        android:layout_toLeftOf="@+id/button"
-        android:layout_toStartOf="@+id/button"
-        android:layout_marginRight="21dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginTop="29dp" />
+        android:layout_alignLeft="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+
 </RelativeLayout>

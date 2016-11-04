@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">HolaMundo</string>
-    <string name="titulo_app">Mi primera aplicacion</string>
+    <string name="titulo_app">Bienvenido</string>
+    <string name="etiqueta_boton_ingreso">Ingresar</string>
 </resources>

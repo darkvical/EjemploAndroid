@@ -9,28 +9,26 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.vical.holamundo.MainActivity">
+    tools:context="com.vical.holamundo.MainActivity"
+    android:background="@drawable/fondo_android">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_app"
-        android:id="@+id/textView" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/lasagna_thumb"
-        android:layout_below="@+id/textView"
-        android:layout_marginTop="3dp"
-        android:id="@+id/imageView" />
+        android:id="@+id/textView"
+        android:textColor="@android:color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:textSize="36sp" />
 
     <Button
-        android:text="Button"
+        android:text="@string/etiqueta_boton_ingreso"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
-        android:layout_marginBottom="15dp"
-        android:layout_alignParentBottom="true"
+        android:layout_marginTop="116dp"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 </RelativeLayout>
